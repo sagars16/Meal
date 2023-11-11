@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DEE8FF;
+}
+
+.navbar {
+    background-color: #A2BEFC;
+}
+
+#fav {
+    color: #003466;
+}
+
+.searchbox {
+    margin: 0;
+    width: 40%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: .8rem 2rem .8rem 1rem;
+    outline: none;
+    border: none;
+    background-color: whitesmoke;
+    color: #759aeb;
+    border: 2px solid #759aeb;
+}
+
+i {
+    color: #759aeb;
+}
+
+.recipe-list {
+    margin: auto;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    color: #759aeb;
+    border: 1px solid #759aeb;
+}
+
+.card-img-top {
+    margin-top: 10px;
+}
+
+#meal-pic img {
+    height: 250px;
+    width: 250px;
+    border-radius: 8%;
+}
+
+.btn-primary {
+    background: #759aeb;
+    border-radius: 12px;
+    padding: 0.4rem 2rem;
+    color: white!important;
+}
+.infocolor {
+    color: #759aeb;
+}
+.food-wid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headline {
+    font-family: 'Quicksand';
+    font-size: 3rem;
+    background: #759aeb;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heading {
+    font-family: 'Quicksand';
+}
+
+#recipe-intro {
+    font-weight: lighter!important;
+    word-spacing: 0.3rem;
+    
+}
